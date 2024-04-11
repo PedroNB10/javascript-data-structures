@@ -31,12 +31,12 @@ let person = { name: "John", age: 31 };
 // console.log(null == undefined); // true
 // console.log(null === undefined); // false
 
-const sym1 = Symbol.for("cat");
+// const sym1 = Symbol.for("cat");
 
-const meuObjeto = {
-  [sym1]: "João",
-};
-console.log(meuObjeto[sym1]); // João
+// const meuObjeto = {
+//   [sym1]: "João",
+// };
+// console.log(meuObjeto[sym1]); // João
 
-// console.log(sym1 === sym2); // false
-console.log(sym1);
+// // console.log(sym1 === sym2); // false
+// console.log(sym1);
